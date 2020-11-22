@@ -1,7 +1,11 @@
 # Тестовое задание Neolab
 
+
 ## Задача на Junior
 
-применение: 
+
+применение:
+
 chmod +x solution.sh
+
 ./solution.sh
