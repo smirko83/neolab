@@ -1,0 +1,13 @@
+[Unit]
+Description=Java app jar service
+
+[Service]
+WorkingDirectory=/home/sysop/
+ExecStart=/usr/bin/java -jar /home/sysop/app.jar some_out_file "Service is working!"
+User=sysop
+Type=simple
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
