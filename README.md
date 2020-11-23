@@ -8,6 +8,8 @@
 
 применение:
 
+cd junior
+
 chmod +x solution.sh
 
 ./solution.sh
