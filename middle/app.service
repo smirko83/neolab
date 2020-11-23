@@ -2,12 +2,13 @@
 Description=Java app jar service
 
 [Service]
-WorkingDirectory=/home/sysop/
-ExecStart=/usr/bin/java -jar /home/sysop/app.jar some_out_file "Service is working!"
+WorkingDirectory=/home/sysop/neolab/middle
+ExecStart=/usr/bin/java -jar /home/sysop/neolab/middle/app.jar some_out_file "Service is working!"
 User=sysop
 Type=simple
 Restart=on-failure
 RestartSec=5
+SuccessExitStatus=143
 
 [Install]
 WantedBy=multi-user.target
