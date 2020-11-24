@@ -46,4 +46,4 @@ sudo systemctl start app.service
 
 При запуске приложения от пользователя аналогичная ситуация.
 
-Выгрузка журнала journald в файле exit.log/
+Выгрузка журнала journald в файле exit.log.
